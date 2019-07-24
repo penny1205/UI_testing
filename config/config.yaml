@@ -1,0 +1,68 @@
+##########log Config##########
+log_path_info: F:\PycharmProjects\UI_testing\log
+log_path_error: F:\PycharmProjects\UI_testing\log\error
+
+##########Mail Config##########
+#receiver eg:['eamilAddress1@keking.cn','eamilAddress2@keking.cn']
+email_receiver : [ 'panyuanyuan@keking.cn','zhangdawei@keking.cn']
+#,'zhangdawei@keking.cn'
+#sender
+email_sender : 'ahkj@keking.cn'
+email_sender_pwd : 'KeKing!@#2018'
+#mail server
+email_host : smtp.keking.cn
+#mail title prefix
+email_title : "TMS-UI自动化测试报告"
+
+#########DB Config###########
+db_host: rm-uf68z8q234b903503jo.mysql.rds.aliyuncs.com
+db_port: 3306
+db_user: keking_uat
+db_passwd: keking@2018#hfUAT
+db_dbname: YDAPPDB
+db_charset: utf8
+
+##########Screenshot Config##########
+screenshot_path: F:\PycharmProjects\UI_testing\report
+
+#############Tms UI Config#############
+# 浏览器
+browser: 'chrome'
+driver: 'F:\PycharmProjects\UI_testing\driver\chromedriver.exe'
+
+#####Api Config#####
+#账户中心 货主端APP api address
+account_app_api_host: newuapi.keking.cn
+account_app_api_port: 8033
+account_app_api_path: ''
+
+#tms api address
+tms_api_host: hfuapi.keking.cn
+tms_api_port: 8887
+tms_api_path: ''
+app_api_host: hfuapi.keking.cn
+app_api_port: 8015
+app_api_path: /app
+mang_api_host: hfuapi.keking.cn
+mang_api_port: 6005
+mang_api_path: ''
+#token
+tms_api_token: eyJlbmNyeXB0ZWREYXRhIjoiRmNnUHM4eWJPZ3ZxNUZWQ3hydFFTd09JNjl3UjJubDZYcHdlZ2dQV2g0UWdyUHRTUU1sbC9UR3J5SDQ1eVgreEV4alZkNkdvOElhd0NINjRUck85UEthMmR1cXFpY3FRRFhXSFMzWkEvWTVEeVlrWGZsUEcyRGRkMW5TZC96VVZrQ0FoYVNkZ1p2VTVnUnVTVjdLOFhiTWFkVmdFMXJveWMvcDhXVkRBaXl6SzBKN0NPeTBQR2F2c0VJeGR1RW94bDh2WVdDa2xKcXo0cDZpbElJaU16V2h4OXFyMVJHRnpnalpBVEh6STJnYWNqQUNZSHZ4Z2h4bTdUTGdVUUdUSGRPNDZDZi9BT3pFeW5rV2k1RnA1TlM5OS9ZZ2hLY3RBbUtCTEVuMDk1dnZpRDMwaGtBaUt6RlFVN2ZsV2ZqVkFzUTdLeDFkTUFBbWM0d3NuSHk2VW0vWjZ0ZHhPUy9DWjIzNjN4UFRXQXFHUThFMllpdmhOQ05McmZUYTZDMFp4VTFzMzRZTDBWdFZmQmFQSG1iZVpDa215ay9kci9qMHRXZWk5cDBMdDR0UGcyS3Y1MEJDdlZHQ1RkSE1iQldiVm05OWgxa3dwbGkzZXBzUjBKUUZqdGdOaDkyV3E0N1RFSDZFUFFZUlhGMkYvYXZxeGhYKzNzVnZHS1ZzV053SlpTRnNEYVBiMjNGSHhaQVVUTkFCOW1Nd0xmQXpxc0tzcGxXRlh3Qk1hcDhlSVorbFlTL2hZN3BRMk51NmlEcjZkWFAxVUpCa1Q3RHlmSXJaWXZQTzVteXdVMi84Zkt0RW1GNUNTRHd4Y0paOUZXS1hETCswNHdVcktRR2YwYTBHSGgvVGlFNXdqTEg3SGNHVDRaZWwwZ0lCSi91WUQ4dUtobU5nYnVxL0JzeE9sejhtMWhQQVNRS21LTkN0b0VlSjdEOUNnQ25rbmV0UGRuZ3ZzbjJwTnl0N0NLak9LS1YxYkFSUkxBenJ6RkpHTkRJeVlXdnJNV1ZOb3FJYzd5YXRZYUxYZkwrR1RrUkVmd3BMS2pUMExvMG84Rk1EOUVRMlU5MEtoejEya2M3dmo4Y0p3T250bnc2RWpvd2pDK0U1SGREZUp5VVRHeTVYMklGQUVOTmNsZWovamRiZG9KN2VkazIxdjdwQ0lWZjFSUU1PbGxWbFJpRGRwT1JpQkFwbFdBMi9JZHFVNEFFeVhUeWE3N1NiUFNVUjZYbUFKcFM0WHZYdDB6bWM3eXEzbTR1WHJHV3BoMDA3R2llUmUzLzJjSHdjeTBJYTg4aGRZMDRpL3Q0akJUTVdZdFBZUnkvUmFzd1h1RlBaSFFscUtmRzVQL3VYRStNaFBoY1dyNjdUdEdITk1ka3NpRTVZK29qcVRCSFRPU294ZTdoNm5JVnJoVG1PMGoxcE4zRXdienNlZmNIZzFFd0pVQXg5aWREd0dCOUEwbEx1NFAzZndETVJVdUtGWUV2bzNmOWVJL3ZIV1lOSUt0QjRocElKWkhSTTNUQ2JNSDB4anI4dkpRdFQwY29rRUxKOVF3NmRCR0dSN2JiczF2MXU5aEF2bndXeUJnc3h1ZVFsMFkzTmNucWlEa0p5d3F2b1RqUjBsU1R1TCIsIndyYXBwZWRLZXkiOiJXcUFtOE84b2t2amFIODBIU1NhbXl5R1BOSW9rdVBkakpUa2RYM0Z4L3JBM3BZeWJ1U2g4TU03OTRMTk5zYytYWnNKZGVaMHNsQzNWZVhDV3VqaGlEZz09In0=
+partnerNo: bRyZ
+payPassword: 123321
+
+##########login Config##########
+name: 13077327043
+password: pan1234
+productId: Qz9SM886XmIoCMTX
+source: android
+
+##########driver Config##########
+chezhu_version: 3.12.1
+chezhu_client: driver
+driver_mobile: 18056070532
+driver_YD_OAUTH: eyJlbmNyeXB0ZWREYXRhIjoiOXBZaVhEYUhscGFQVnVKVlFWWm4zL0ZlWXErc1IxVWVINXpYd1RJZTZ1dGRiaFFoMDVLRjNybHVvdFQycXQ2WndzM2gvb1VUQit6VVJmT2owYmYxY2NYU29PWXZ6cmJ2UEhtRTM4Y1BBTzdKT0w1VWdVd1lVdHpyL25aVEkwbk9SZzc5VmFMSEtmbWpFdTNObEdrMnYvNjVyU25LbmQyL0wza3FtblBIQU1GKzNWUTk3NXMwWDlQdEpaZENvbzZ3V0FCYkNSOUhweG1ZV2x1S3F4RG10MFlBaENzMlMvNzRlWEwrVzEvQ2FuZGZ5QW42K01TNWdRaG9hRmt0OXNhRytIbStDNTZ2SE14UUxhQjhnSUhDaVZQMXFDNC9HYkJNc0QyaFZlMkFoYy9NR2ZQQ0trcUpjdnY2NGh4MXg0Z1pIQzI3RGJKNWdCSXBWbG8xVVl5czhxd2hzWGxFWVBsR0h3TVhTZGgyMGlXdWtrT0IvM3JONmFic3BHZzJYYWU4M0ZwamNJN29zcEhLMC92ZmtZQVEvMlRSaU80b0V1M204M092TTZIa3daL1FselJKZ1ZtSFYvV1FzTjYyWVdwTEdaNkRtQm84S0hjVXJNTnJ4TUhTaXFJQlFLK1VRWjdDS2FyZWJIS21GdGJoNm5NVXNyMzYxT0JIRjl3Z051RzdiTXA1TnpSZnJ1OGlJdjFOTUFhUkl3dmQ3eFhMajF2U0hCNDNNakFUbmZZano0UlpseURKYUVTVVg3dnZjYVA2cUhTSmtJdWl0azZaL1N1Mmo2ZFVhd0pJUndQMkNsWlJseWZURjg3RDFLVVRLQ2xrZytrR1BMWHNIRVozOE5BM3EyTXlkZk80Nk4wWUE4U2tFUVltdXNzOTFIVThna2trMUYxYWdtZ0d3QW1Pek5UVkFQZlA5ejZtL3JzQUNJTmR2dG9rZWZnZXhtc1JxcVlvRHhNQmpKR2tuZklLQUVZcXR6a0E2dTdTeHd5MEtFYnJMcVNqRThyWFNHdlJrc0ROLzE2c3dLblZ5YTYvdFZ0d3hPTmlVQjd4Vm1mTWxYWHAzY0IrbXZJSU96eWdyaE13cFArV3VNd2RqaTRCRnJTSkoyczBZc3IxenRueG1VVlpvV3RjcU5UNjNqSEI3NmZBUkhBd0tEeGdqbGt0SjErazR6WHNoT1VESmZIWHpJbTFGMWs3RlZPblpSSWR2Q0Rpb015YUc5bCtXKzRrbWxzTUE5UzhPcHo0Y1RrSHJLRytudmpWbVNuNWtsUU5TVmV4Iiwid3JhcHBlZEtleSI6InlockZWVVVwZHU4djVVYnZQcGR1MXF0LzZxbkxncDFNMkF6VzNsRk1nblVhSXB6YUVRY1dnL2pEK2MrUEdVWWNVQk5IZ2RPSTJoOTVpUzlNeVkvSHB3PT0ifQ==
+
+#############Tms Url Config#############
+#页面基础类url
+base_url: 'https://hfuapi.keking.cn:8056/auto-test/#/transfer?appToken='
